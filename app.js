@@ -88,7 +88,7 @@ var options = {
     network:{
         peers:  peers,
         users:  users,
-        options: {quiet: true, tls:false, maxRetry: 1}
+        options: {quiet: true, tls:false, maxRetry: 1，timeout: 6000000}
     },
     chaincode: {
         zip_url: 'https://github.com/ITPeople-Blockchain/auction/archive/master.zip',
